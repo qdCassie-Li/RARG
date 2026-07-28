@@ -1,0 +1,6 @@
+# Paper sources (project page only)
+*.tex
+*.bib
+*.bst
+*.sty
+.DS_Store
