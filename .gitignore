@@ -4,3 +4,7 @@
 *.bst
 *.sty
 .DS_Store
+
+# Keep only web-used figure assets in the repo
+figure/*.pdf
+figure/*_v1.*
