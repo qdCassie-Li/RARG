@@ -454,7 +454,7 @@
         <div class="figure-image">
           <img src="figure/fig1_teaser_rarg.pdf.png" alt="Accuracy and interaction cost comparisons on BrowseComp-Plus and BRIGHT">
         </div>
-        <figcaption><strong>Figure 1.</strong> Accuracy/nDCG@10 versus interaction cost on the <strong>100-query BrowseComp-Plus</strong> subset and <strong>4 BRIGHT subsets</strong> (biology, earth science, economics, robotics). RARG advances the accuracy–efficiency frontier over retrieval-based and direct-interaction agents.</figcaption>
+        <figcaption><strong>Figure 1.</strong> Accuracy/nDCG@10 versus interaction cost on BrowseComp-Plus and BRIGHT. Following RISE, we evaluate on the 100-query BC+ setting and 4 BRIGHT subsets (biology, earth science, economics, robotics). RARG advances the accuracy–efficiency frontier over retrieval-based and direct-interaction agents.</figcaption>
       </figure>
     </section>
 
@@ -499,7 +499,7 @@
     <section class="wide-section" id="results">
       <div class="section-label">Evaluation</div>
       <h2>Higher accuracy with fewer interactions.</h2>
-      <p class="lead">Results are reported on the <strong>100-query BrowseComp-Plus</strong> subset (following RISE) and <strong>4 BRIGHT subsets</strong> (biology, earth science, economics, robotics). Across these settings, relevance-aware interaction improves both search quality and convergence efficiency.</p>
+      <p class="lead">Following RISE, we evaluate on the 100-query BC+ setting and 4 BRIGHT subsets (biology, earth science, economics, robotics). Across these settings, relevance-aware interaction improves both search quality and convergence efficiency.</p>
       <div class="metrics">
         <div class="metric">
           <strong>84%</strong>
@@ -517,7 +517,7 @@
 
       <div class="result-block">
         <h3>BrowseComp-Plus · 100-query · 100K corpus</h3>
-        <p class="lead">Main results on the 100-query BC+ subset with a 100K-document corpus. Turns and Tools are average agent turns and tool calls; Search / Bash / Read break down tool usage. For RARG, Search denotes <code>embed_recall</code>.</p>
+        <p class="lead">Main results on 100-query BC+ with a 100K-document corpus, consistent with RISE. Turns and Tools are average agent turns and tool calls; Search / Bash / Read break down tool usage. For RARG, Search denotes <code>embed_recall</code>.</p>
         <div class="table-wrap">
           <table class="results">
             <thead>
@@ -607,12 +607,12 @@
             </tbody>
           </table>
         </div>
-        <p class="table-caption"><strong>Table 1.</strong> Main results on the 100-query BC+ subset with a 100K-document corpus. RARG++ reaches the best accuracy on every backbone while sharply reducing tool cost relative to DCI.</p>
+        <p class="table-caption"><strong>Table 1.</strong> Main results on 100-query BC+ with a 100K-document corpus (consistent with RISE). RARG++ reaches the best accuracy on every backbone while sharply reducing tool cost relative to DCI.</p>
       </div>
 
       <div class="result-block">
         <h3>BrowseComp-Plus · 100-query · scaling to 1M</h3>
-        <p class="lead">After expanding the same 100-query BC+ subset with 900K long FineWeb-Edu documents, RARG++ retains a clear margin over RISE-BM25 with only a small increase in tool calls.</p>
+        <p class="lead">After expanding the same 100-query BC+ setting with 900K long FineWeb-Edu documents, RARG++ retains a clear margin over RISE-BM25 with only a small increase in tool calls.</p>
         <div class="table-wrap">
           <table class="results">
             <thead>
